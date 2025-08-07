@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "worldmanagerfabric",
+  "version": "1.0.0",
+  "name": "World Manager Fabric",
+  "description": "Manage multiple worlds via commands",
+  "authors": ["ChatGPT"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.worldmanager.WorldManagerMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.10",
+    "fabric": "*",
+    "minecraft": "1.21.8"
+  }
+}
